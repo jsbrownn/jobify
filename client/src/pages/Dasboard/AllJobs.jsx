@@ -5,8 +5,8 @@ import {SearchContainer,JobsContainer} from '../../components';
 function AllJob() {
   return (
     <>
-      {/* <SearchContainer/>
-      <JobsContainer/> */}
+      <SearchContainer/>
+      <JobsContainer/> 
     </>
   )
 }
