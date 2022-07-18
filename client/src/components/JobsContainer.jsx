@@ -1,8 +1,7 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import {useAppContext} from '../context/AppContext';
 import Loading from './Loading';
 import Wrapper from '../assets/wrappers/JobsContainer';
-import {Job} from './Job'
 
 
 function JobsContainer() {

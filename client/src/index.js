@@ -5,13 +5,12 @@ import './index.css';
 import { AppProvider } from './context/AppContext';
 import App from './App';
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
       <App/>
     </AppProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 

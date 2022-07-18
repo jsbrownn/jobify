@@ -60,7 +60,7 @@ function Register() {
         navigate('/')
       }, 3000)
     }
-  }, [user])
+  }, [user,navigate])
   return (
     <Wrapper>
       <form className="form" onSubmit={onSubmit}>

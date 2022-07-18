@@ -1,4 +1,3 @@
-import { json } from 'express'
 import React from 'react'
 
 function Job({item}) {
